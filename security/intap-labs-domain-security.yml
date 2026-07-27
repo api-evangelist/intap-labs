@@ -1,0 +1,12 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: helloenglish.com
+  https: false
+domains:
+- domain: helloenglish.com
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: false
